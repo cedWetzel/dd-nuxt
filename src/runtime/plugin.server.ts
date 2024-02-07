@@ -3,7 +3,7 @@ import { defineNuxtPlugin, useRuntimeConfig } from "#app";
 import { createLogger, format, transports } from "winston";
 
 export default defineNuxtPlugin((nuxtApp) => {
-  const options = useRuntimeConfig().public.ddNuxt;
+  const options = useRuntimeConfig().ddNuxt;
   const logger = createLogger({
     level: "info",
     format: format.json(),
