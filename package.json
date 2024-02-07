@@ -1,6 +1,6 @@
 {
   "name": "dd-nuxt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Datadog error logger for nuxt 3",
   "repository": "cedWetzel/dd-nuxt",
   "license": "MIT",
